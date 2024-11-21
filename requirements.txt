@@ -1,0 +1,6 @@
+Flask==3.0.3
+openai==1.50.2
+gunicorn==20.1.0
+google-auth==2.34.0
+google-cloud-aiplatform==1.65.0
+anthropic[vertex]==0.37.1
