@@ -5,7 +5,9 @@ from google.auth.transport import requests
 
 
 MODEL_MAP = {
-    "llama-3.1": "meta/llama-3.1-405b-instruct-maas",
+    "llama-3.1-405b": "meta/llama-3.1-405b-instruct-maas",
+    "llama-3.1-70b": "meta/llama-3.1-70b-instruct-maas",
+    "llama-3.1-8b": "meta/llama-3.1-8b-instruct-maas",
     "llama-3.2": "meta/llama-3.2-90b-vision-instruct-maas",
 }
 
@@ -44,7 +46,17 @@ def models():
     model_details = [
         {
             "created": None,
-            "id": "llama-3.1",
+            "id": "llama-3.1-405b",
+            "owned_by": "meta",
+        },
+        {
+            "created": None,
+            "id": "llama-3.1-70b",
+            "owned_by": "meta",
+        },
+        {
+            "created": None,
+            "id": "llama-3.1-8b",
             "owned_by": "meta",
         },
         {
